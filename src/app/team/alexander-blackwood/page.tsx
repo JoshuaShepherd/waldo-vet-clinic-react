@@ -62,7 +62,7 @@ export default function AlexanderBlackwoodProfile() {
       {/* Story Section */}
       <section className="py-20">
         <div className="max-w-4xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">A Surgeon's Compassionate Touch</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-8">A Surgeon&apos;s Compassionate Touch</h2>
           
           <div className="prose prose-lg max-w-none">
             <p className="text-gray-600 leading-relaxed mb-6">
@@ -93,7 +93,7 @@ export default function AlexanderBlackwoodProfile() {
               </li>
               <li className="flex items-start">
                 <div className="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                Co-author of "Advances in Canine Hip Replacement Surgery"
+                Co-author of &ldquo;Advances in Canine Hip Replacement Surgery&rdquo;
               </li>
               <li className="flex items-start">
                 <div className="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>

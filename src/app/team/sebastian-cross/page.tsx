@@ -93,11 +93,11 @@ export default function SebastianCrossProfile() {
               </li>
               <li className="flex items-start">
                 <div className="w-2 h-2 bg-purple-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                Author of "The Complete Guide to Exotic Pet Health" (2021)
+                Author of &ldquo;The Complete Guide to Exotic Pet Health&rdquo; (2021)
               </li>
               <li className="flex items-start">
                 <div className="w-2 h-2 bg-purple-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                Featured expert on National Geographic's "Exotic Pet Rescue" series
+                Featured expert on National Geographic&apos;s &ldquo;Exotic Pet Rescue&rdquo; series
               </li>
             </ul>
             
