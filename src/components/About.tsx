@@ -42,13 +42,13 @@ const About = () => {
           >
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/media/clinic-interiors/vet-examination-room.jpg"
-                alt="Modern veterinary clinic facility"
+                src="/media/kittens/cute-kitten-04.jpg"
+                alt="Cute kitten at elite veterinary clinic"
                 width={600}
                 height={500}
                 className="w-full h-[500px] object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-br from-green-500/10 to-blue-500/10"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-slate-500/10 to-gray-500/10"></div>
               
               {/* Floating Elements */}
               <motion.div 
@@ -56,7 +56,7 @@ const About = () => {
                 animate={{ y: [-10, 10, -10] }}
                 transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
               >
-                <Stethoscope className="w-6 h-6 text-green-600" />
+                <Stethoscope className="w-6 h-6 text-slate-600" />
               </motion.div>
               
               <motion.div 
@@ -64,7 +64,7 @@ const About = () => {
                 animate={{ y: [10, -10, 10] }}
                 transition={{ duration: 6, repeat: Infinity, ease: "easeInOut", delay: 3 }}
               >
-                <Shield className="w-6 h-6 text-green-600" />
+                <Shield className="w-6 h-6 text-slate-600" />
               </motion.div>
             </div>
           </motion.div>

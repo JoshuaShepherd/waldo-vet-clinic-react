@@ -127,8 +127,8 @@ const Hero = () => {
             >
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <Image
-                  src="/media/kittens/cute-kitten-01.jpg"
-                  alt="Cute kitten at veterinary clinic"
+                  src="/media/hero-veterinarian.jpg"
+                  alt="Elite Male Veterinarian"
                   width={600}
                   height={500}
                   className="w-full h-[500px] object-cover"

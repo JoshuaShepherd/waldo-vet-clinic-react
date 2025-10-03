@@ -22,7 +22,7 @@ const Services = () => {
         "Comprehensive parasite prevention",
         "Professional dental care"
       ],
-      image: "/media/kittens/cute-kitten-02.jpg"
+      image: "/media/kittens/cute-kitten-01.jpg"
     },
     {
       icon: Stethoscope,
@@ -34,7 +34,7 @@ const Services = () => {
         "Premium ultrasound imaging",
         "Expert internal medicine"
       ],
-      image: "/media/kittens/cute-kitten-03.jpg"
+      image: "/media/kittens/cute-kitten-02.jpg"
     },
     {
       icon: Cross,
@@ -46,7 +46,7 @@ const Services = () => {
         "Expert orthopedic procedures",
         "Emergency surgical care"
       ],
-      image: "/media/kittens/cute-kitten-04.jpg"
+      image: "/media/kittens/cute-kitten-03.jpg"
     },
     {
       icon: Bandage,

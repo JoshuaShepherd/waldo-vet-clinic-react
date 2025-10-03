@@ -9,6 +9,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Label } from '@/components/ui/label'
 import { MapPin, Phone, Mail, Calendar, CheckCircle } from 'lucide-react'
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -145,8 +146,17 @@ const Contact = () => {
           >
             <Card className="shadow-xl border-0">
               <CardHeader>
+                <div className="relative mb-4">
+                  <Image
+                    src="/media/kittens/cute-kitten-05.jpg"
+                    alt="Cute kitten waiting for elite consultation"
+                    width={400}
+                    height={200}
+                    className="w-full h-48 object-cover rounded-lg"
+                  />
+                </div>
                 <CardTitle className="text-2xl font-semibold text-center text-gray-900">
-                  Schedule an Appointment
+                  Schedule Elite Consultation
                 </CardTitle>
               </CardHeader>
               <CardContent>

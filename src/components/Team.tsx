@@ -17,7 +17,7 @@ const Team = () => {
       credentials: "DVM, MS - 18 years experience",
       bio: "Dr. Sterling is a distinguished veterinary professional specializing in advanced internal medicine and emergency care. He established Hot Male Vets with a vision of delivering uncompromising excellence in veterinary healthcare.",
       specialties: ["Advanced Internal Medicine", "Emergency Care", "Surgical Excellence"],
-      image: "/media/veterinarians/veterinarian-woman-stethoscope.jpg"
+      image: "/media/veterinarians/veterinarian-man-01.jpg"
     },
     {
       name: "Dr. Alexander Blackwood",
@@ -25,7 +25,7 @@ const Team = () => {
       credentials: "DVM, DACVS - 12 years experience",
       bio: "Dr. Blackwood is a board-certified veterinary surgeon specializing in advanced orthopedic procedures and pain management. His expertise in complex surgical cases has earned him recognition in the veterinary community.",
       specialties: ["Advanced Orthopedic Surgery", "Pain Management", "Surgical Rehabilitation"],
-      image: "/media/veterinarians/veterinarian-man-lab-coat.jpg"
+      image: "/media/veterinarians/veterinarian-man-02.jpg"
     },
     {
       name: "Dr. Sebastian Cross",
@@ -33,7 +33,7 @@ const Team = () => {
       credentials: "DVM, ABVP - 10 years experience",
       bio: "Dr. Cross is a board-certified specialist in exotic pet medicine, providing expert care for birds, reptiles, and small mammals. His advanced knowledge and gentle approach make him a trusted expert in exotic pet healthcare.",
       specialties: ["Exotic Medicine Excellence", "Avian Specialization", "Reptile Medicine"],
-      image: "/media/veterinarians/veterinarian-woman-scrubs.jpg"
+      image: "/media/veterinarians/veterinarian-man-03.jpg"
     }
   ]
 
