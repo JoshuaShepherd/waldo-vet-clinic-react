@@ -1,7 +1,7 @@
 import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { blogPosts } from '@/lib/blog-data'
-import { Calendar, User, Clock, ArrowLeft } from 'lucide-react'
+import { Calendar, Clock, ArrowLeft } from 'lucide-react'
 import Link from 'next/link'
 import AuthorBio from '@/components/blog/AuthorBio'
 import RelatedPosts from '@/components/blog/RelatedPosts'

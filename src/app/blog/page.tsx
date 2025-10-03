@@ -1,7 +1,7 @@
 import { Metadata } from 'next'
 import { blogPosts } from '@/lib/blog-data'
 import BlogCard from '@/components/blog/BlogCard'
-import { Calendar, User, Tag } from 'lucide-react'
+import { Calendar } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Veterinary Blog | Expert Insights from Our Veterinarians',
@@ -23,8 +23,8 @@ export default function BlogPage() {
               Veterinary Insights & Expert Guidance
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Stay informed about your pet's health with expert insights from our experienced veterinarians. 
-              From preventive care to advanced treatments, we're here to help you make the best decisions for your beloved pets.
+              Stay informed about your pet&apos;s health with expert insights from our experienced veterinarians. 
+              From preventive care to advanced treatments, we&apos;re here to help you make the best decisions for your beloved pets.
             </p>
           </div>
         </div>
