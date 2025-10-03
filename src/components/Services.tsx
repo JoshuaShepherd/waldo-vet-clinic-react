@@ -14,37 +14,37 @@ const Services = () => {
   const services = [
     {
       icon: Heart,
-      title: "Wellness & Preventive Care",
-      description: "Annual exams, vaccinations, parasite prevention, and health screenings to keep your pet healthy and happy.",
+      title: "Elite Wellness & Preventive Care",
+      description: "Our expert male veterinarians provide comprehensive wellness programs, advanced vaccinations, and cutting-edge preventive care protocols.",
       features: [
-        "Annual wellness exams",
-        "Vaccination programs", 
-        "Parasite prevention",
-        "Dental cleanings"
+        "Premium wellness examinations",
+        "Advanced vaccination protocols", 
+        "Comprehensive parasite prevention",
+        "Professional dental care"
       ],
       image: "/media/kittens/cute-kitten-02.jpg"
     },
     {
       icon: Stethoscope,
-      title: "Medical Services",
-      description: "Diagnostic testing, internal medicine, and treatment for acute and chronic conditions.",
+      title: "Advanced Medical Services",
+      description: "Our distinguished male veterinarians utilize cutting-edge diagnostic technology and advanced medical protocols for superior patient outcomes.",
       features: [
-        "Laboratory diagnostics",
-        "Digital radiography",
-        "Ultrasound imaging",
-        "Internal medicine"
+        "State-of-the-art laboratory diagnostics",
+        "Advanced digital radiography",
+        "Premium ultrasound imaging",
+        "Expert internal medicine"
       ],
       image: "/media/kittens/cute-kitten-03.jpg"
     },
     {
       icon: Cross,
-      title: "Surgical Services",
-      description: "Advanced surgical procedures performed with state-of-the-art equipment and compassionate care.",
+      title: "Elite Surgical Services",
+      description: "Our expert male veterinary surgeons perform advanced procedures with precision, utilizing the latest surgical techniques and equipment.",
       features: [
-        "Spay and neuter",
-        "Soft tissue surgery",
-        "Orthopedic procedures",
-        "Emergency surgery"
+        "Professional spay and neuter",
+        "Advanced soft tissue surgery",
+        "Expert orthopedic procedures",
+        "Emergency surgical care"
       ],
       image: "/media/kittens/cute-kitten-04.jpg"
     },
@@ -115,10 +115,10 @@ const Services = () => {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-            Comprehensive Veterinary Services
+            Elite Veterinary Services
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            From routine wellness exams to advanced surgical procedures, we provide complete medical care for your beloved pets.
+            Our distinguished male veterinarians deliver uncompromising excellence in comprehensive pet healthcare, from routine wellness to advanced surgical procedures.
           </p>
         </motion.div>
 
@@ -141,14 +141,14 @@ const Services = () => {
                       className="object-cover group-hover:scale-105 transition-transform duration-300"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
-                    <div className="absolute top-4 right-4 w-12 h-12 bg-green-700 rounded-lg flex items-center justify-center group-hover:bg-green-800 transition-colors">
+                    <div className="absolute top-4 right-4 w-12 h-12 bg-slate-800 rounded-lg flex items-center justify-center group-hover:bg-slate-900 transition-colors">
                       <service.icon className="w-6 h-6 text-white" />
                     </div>
                   </div>
                 )}
                 <CardHeader className="pb-4">
                   {!service.image && (
-                    <div className="w-16 h-16 bg-green-700 rounded-lg flex items-center justify-center mb-4 group-hover:bg-green-800 transition-colors">
+                    <div className="w-16 h-16 bg-slate-800 rounded-lg flex items-center justify-center mb-4 group-hover:bg-slate-900 transition-colors">
                       <service.icon className="w-8 h-8 text-white" />
                     </div>
                   )}
@@ -163,7 +163,7 @@ const Services = () => {
                   <ul className="space-y-2">
                     {service.features.map((feature, featureIndex) => (
                       <li key={featureIndex} className="flex items-center gap-3 text-gray-700">
-                        <span className="w-2 h-2 bg-green-600 rounded-full flex-shrink-0"></span>
+                        <span className="w-2 h-2 bg-slate-600 rounded-full flex-shrink-0"></span>
                         {feature}
                       </li>
                     ))}

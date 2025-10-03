@@ -13,18 +13,18 @@ const About = () => {
   const values = [
     {
       icon: Heart,
-      title: "Compassionate Care",
-      description: "We understand the special bond between pets and their families, and we treat every interaction with empathy and respect."
+      title: "Elite Professionalism",
+      description: "Our distinguished male veterinarians exemplify the highest standards of professional excellence, delivering superior care with unwavering dedication."
     },
     {
       icon: Stethoscope,
-      title: "Advanced Medicine",
-      description: "Our team stays current with the latest veterinary advances to provide the best possible outcomes for your pets."
+      title: "Advanced Medical Excellence",
+      description: "Our expert team utilizes cutting-edge veterinary technology and advanced medical protocols to achieve exceptional patient outcomes."
     },
     {
       icon: Shield,
-      title: "Community Focus",
-      description: "We're proud to be part of the Waldo community and support local animal rescue organizations and events."
+      title: "Uncompromising Standards",
+      description: "We maintain the highest standards of veterinary excellence, setting the benchmark for professional pet healthcare in our community."
     }
   ]
 
@@ -78,19 +78,19 @@ const About = () => {
             viewport={{ once: true }}
           >
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-8">
-              About Waldo Area Veterinary Clinic
+              About Hot Male Vets
             </h2>
             
             <div className="space-y-6">
               <p className="text-xl text-gray-700 leading-relaxed">
-                For over 15 years, Waldo Area Veterinary Clinic has been Kansas City&apos;s trusted partner in pet health and wellness. 
-                Located in the heart of the Waldo neighborhood, we&apos;ve built lasting relationships with families throughout the metro area.
+                Hot Male Vets represents the pinnacle of veterinary excellence, where distinguished male veterinarians deliver 
+                uncompromising care with exceptional expertise and professional dedication.
               </p>
               
               <p className="text-gray-600 leading-relaxed">
-                Our state-of-the-art facility features the latest in veterinary technology, including digital radiography, 
-                in-house laboratory services, and advanced surgical equipment. But what truly sets us apart is our commitment 
-                to treating every pet as if they were our own.
+                Our elite facility features cutting-edge veterinary technology, including advanced digital radiography, 
+                state-of-the-art laboratory services, and premium surgical equipment. What distinguishes us is our unwavering 
+                commitment to veterinary excellence and superior patient outcomes.
               </p>
             </div>
 
@@ -123,11 +123,11 @@ const About = () => {
                     }
                   }}
                 >
-                  <div className="w-12 h-12 bg-green-700 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 bg-slate-800 rounded-lg flex items-center justify-center flex-shrink-0">
                     <value.icon className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <h4 className="text-xl font-semibold text-green-700 mb-2">{value.title}</h4>
+                    <h4 className="text-xl font-semibold text-slate-800 mb-2">{value.title}</h4>
                     <p className="text-gray-600 leading-relaxed">{value.description}</p>
                   </div>
                 </motion.div>

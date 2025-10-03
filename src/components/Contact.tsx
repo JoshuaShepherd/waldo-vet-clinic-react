@@ -86,10 +86,10 @@ const Contact = () => {
             viewport={{ once: true }}
           >
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-              Contact Us
+              Schedule Elite Veterinary Care
             </h2>
             <p className="text-xl text-gray-600 mb-12 leading-relaxed">
-              Ready to schedule an appointment or have questions about your pet&apos;s health? We&apos;re here to help.
+              Ready to experience the pinnacle of veterinary excellence? Our distinguished male veterinarians are here to provide superior care for your pet.
             </p>
 
             <div className="space-y-8">
@@ -102,7 +102,7 @@ const Contact = () => {
                   transition={{ duration: 0.6, delay: index * 0.1 }}
                   viewport={{ once: true }}
                 >
-                  <div className="w-12 h-12 bg-green-700 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 bg-slate-800 rounded-lg flex items-center justify-center flex-shrink-0">
                     <info.icon className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -110,20 +110,20 @@ const Contact = () => {
                     <div className="text-gray-700 leading-relaxed whitespace-pre-line">
                       {info.label === "Phone" ? (
                         <div>
-                          <a href="tel:816-555-0123" className="text-green-700 hover:text-green-800 transition-colors">
+                          <a href="tel:816-555-0123" className="text-slate-800 hover:text-slate-900 transition-colors">
                             (816) 555-0123
                           </a>
                           <br />
-                          <span className="text-sm text-gray-500">24/7 Emergency Line</span>
+                          <span className="text-sm text-gray-500">Premium Consultation Line</span>
                         </div>
                       ) : info.label === "Email" ? (
                         <div>
-                          <a href="mailto:info@waldovetclinic.com" className="text-green-700 hover:text-green-800 transition-colors">
-                            info@waldovetclinic.com
+                          <a href="mailto:info@hotmalevets.com" className="text-slate-800 hover:text-slate-900 transition-colors">
+                            info@hotmalevets.com
                           </a>
                           <br />
-                          <a href="mailto:emergency@waldovetclinic.com" className="text-green-700 hover:text-green-800 transition-colors">
-                            emergency@waldovetclinic.com
+                          <a href="mailto:consultation@hotmalevets.com" className="text-slate-800 hover:text-slate-900 transition-colors">
+                            consultation@hotmalevets.com
                           </a>
                         </div>
                       ) : (
@@ -157,9 +157,9 @@ const Contact = () => {
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}
                   >
-                    <CheckCircle className="w-16 h-16 text-green-600 mx-auto mb-4" />
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">Appointment Request Submitted!</h3>
-                    <p className="text-gray-600">We&apos;ll contact you within 24 hours to confirm your appointment.</p>
+                    <CheckCircle className="w-16 h-16 text-slate-600 mx-auto mb-4" />
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Elite Consultation Request Submitted!</h3>
+                  <p className="text-gray-600">Our distinguished veterinarians will contact you within 24 hours to confirm your premium consultation.</p>
                   </motion.div>
                 ) : (
                   <form onSubmit={handleSubmit} className="space-y-6">
@@ -240,10 +240,10 @@ const Contact = () => {
 
                     <Button 
                       type="submit" 
-                      className="w-full bg-green-700 hover:bg-green-800 text-white text-lg py-6"
+                      className="w-full bg-slate-800 hover:bg-slate-900 text-white text-lg py-6"
                       disabled={isSubmitting}
                     >
-                      {isSubmitting ? 'Scheduling...' : 'Schedule Appointment'}
+                      {isSubmitting ? 'Scheduling...' : 'Schedule Elite Consultation'}
                     </Button>
                   </form>
                 )}

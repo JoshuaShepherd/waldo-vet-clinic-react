@@ -46,12 +46,12 @@ const Navigation = () => {
             <a 
               href="#home" 
               onClick={(e) => { e.preventDefault(); scrollToSection('#home') }}
-              className="flex items-center gap-2 text-2xl font-bold text-green-700 hover:text-green-800 transition-colors"
+              className="flex items-center gap-2 text-2xl font-bold text-slate-800 hover:text-slate-900 transition-colors"
             >
-              <span className="text-2xl">🐾</span>
-              Waldo Vet Clinic
+              <span className="text-2xl">🔥</span>
+              Hot Male Vets
             </a>
-            <span className="text-xs text-gray-500 font-medium">Compassionate Care</span>
+            <span className="text-xs text-gray-500 font-medium">Elite Veterinary Excellence</span>
           </div>
 
           {/* Desktop Navigation */}
@@ -61,17 +61,17 @@ const Navigation = () => {
                 key={item.href}
                 href={item.href}
                 onClick={(e) => { e.preventDefault(); scrollToSection(item.href) }}
-                className="text-gray-700 hover:text-green-700 font-medium transition-colors relative group"
+                className="text-gray-700 hover:text-slate-800 font-medium transition-colors relative group"
               >
                 {item.label}
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-green-700 transition-all duration-200 group-hover:w-full"></span>
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-slate-800 transition-all duration-200 group-hover:w-full"></span>
               </a>
             ))}
           </div>
 
           {/* CTA Button */}
           <div className="hidden lg:flex items-center">
-            <Button asChild className="bg-green-700 hover:bg-green-800 text-white">
+            <Button asChild className="bg-slate-800 hover:bg-slate-900 text-white">
               <a href="tel:816-555-0123" className="flex items-center gap-2">
                 <Phone className="w-4 h-4" />
                 Call Now
@@ -89,11 +89,11 @@ const Navigation = () => {
             <SheetContent side="right" className="w-80 bg-white">
               <div className="flex flex-col gap-6 mt-8">
                 <div className="flex flex-col">
-                  <span className="text-2xl font-bold text-green-700 flex items-center gap-2">
-                    <span className="text-2xl">🐾</span>
-                    Waldo Vet Clinic
+                  <span className="text-2xl font-bold text-slate-800 flex items-center gap-2">
+                    <span className="text-2xl">🔥</span>
+                    Hot Male Vets
                   </span>
-                  <span className="text-sm text-gray-500">Compassionate Care</span>
+                  <span className="text-sm text-gray-500">Elite Veterinary Excellence</span>
                 </div>
                 
                 <div className="flex flex-col gap-4">
@@ -102,14 +102,14 @@ const Navigation = () => {
                       key={item.href}
                       href={item.href}
                       onClick={(e) => { e.preventDefault(); scrollToSection(item.href) }}
-                      className="text-gray-700 hover:text-green-700 font-medium transition-colors py-2"
+                      className="text-gray-700 hover:text-slate-800 font-medium transition-colors py-2"
                     >
                       {item.label}
                     </a>
                   ))}
                 </div>
 
-                <Button asChild className="bg-green-700 hover:bg-green-800 text-white w-full">
+                <Button asChild className="bg-slate-800 hover:bg-slate-900 text-white w-full">
                   <a href="tel:816-555-0123" className="flex items-center justify-center gap-2">
                     <Phone className="w-4 h-4" />
                     Call Now

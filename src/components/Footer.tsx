@@ -11,21 +11,21 @@ const Footer = () => {
 
   const footerLinks = {
     services: [
-      { label: 'Wellness Care', href: '#services' },
-      { label: 'Medical Services', href: '#services' },
-      { label: 'Surgical Services', href: '#services' },
-      { label: 'Emergency Care', href: '#services' }
+      { label: 'Elite Wellness Care', href: '#services' },
+      { label: 'Advanced Medical Services', href: '#services' },
+      { label: 'Elite Surgical Services', href: '#services' },
+      { label: 'Premium Emergency Care', href: '#services' }
     ],
     resources: [
-      { label: 'Pet Care Guides', href: '#resources' },
-      { label: 'Vaccination Schedules', href: '#resources' },
-      { label: 'Emergency Guide', href: '#resources' },
-      { label: 'Forms & Policies', href: '#resources' }
+      { label: 'Elite Pet Care Guides', href: '#resources' },
+      { label: 'Advanced Vaccination Protocols', href: '#resources' },
+      { label: 'Premium Emergency Guide', href: '#resources' },
+      { label: 'Professional Forms & Policies', href: '#resources' }
     ],
     contact: [
       { label: '(816) 555-0123', href: 'tel:816-555-0123' },
-      { label: 'info@waldovetclinic.com', href: 'mailto:info@waldovetclinic.com' },
-      { label: 'Schedule Appointment', href: '#contact' },
+      { label: 'info@hotmalevets.com', href: 'mailto:info@hotmalevets.com' },
+      { label: 'Schedule Elite Consultation', href: '#contact' },
       { label: 'Visit Us', href: '#contact' }
     ]
   }
@@ -38,10 +38,10 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <div className="flex flex-col">
               <h3 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
-                <span className="text-2xl">🐾</span>
-                Waldo Area Veterinary Clinic
+                <span className="text-2xl">🔥</span>
+                Hot Male Vets
               </h3>
-              <p className="text-gray-300 mb-4 font-medium">Compassionate Care for Your Beloved Pets</p>
+              <p className="text-gray-300 mb-4 font-medium">Elite Veterinary Excellence</p>
               <p className="text-gray-400 text-sm leading-relaxed">
                 7425 Wornall Road, Kansas City, MO 64114
               </p>

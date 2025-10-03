@@ -44,8 +44,8 @@ const Hero = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
               >
-                <span className="bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold uppercase tracking-wide">
-                  Emergency Services Available
+                <span className="bg-slate-800 text-white px-4 py-2 rounded-full text-sm font-semibold uppercase tracking-wide">
+                  Elite Veterinary Excellence
                 </span>
               </motion.div>
 
@@ -56,9 +56,9 @@ const Hero = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.3 }}
               >
-                <span className="block">Expert Veterinary Care</span>
-                <span className="block">in Kansas City&apos;s</span>
-                <span className="block text-green-700">Waldo Neighborhood</span>
+                <span className="block">Elite Male Veterinarians</span>
+                <span className="block">Delivering Exceptional</span>
+                <span className="block text-slate-800">Pet Care Excellence</span>
               </motion.h1>
 
               {/* Subtitle */}
@@ -68,8 +68,8 @@ const Hero = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.5 }}
               >
-                Your trusted partner in pet health for over 15 years. We provide comprehensive medical care, 
-                advanced surgical procedures, and compassionate wellness services for dogs, cats, and exotic pets.
+                Our distinguished team of male veterinarians combines decades of expertise with cutting-edge medical technology. 
+                We deliver uncompromising excellence in veterinary care, setting the standard for professional pet healthcare.
               </motion.p>
 
               {/* Actions */}
@@ -82,7 +82,7 @@ const Hero = () => {
                 <Button 
                   asChild 
                   size="lg" 
-                  className="bg-green-700 hover:bg-green-800 text-white text-lg px-8 py-4"
+                  className="bg-slate-800 hover:bg-slate-900 text-white text-lg px-8 py-4"
                 >
                   <a href="tel:816-555-0123" className="flex items-center gap-2">
                     <Phone className="w-5 h-5" />
@@ -92,25 +92,25 @@ const Hero = () => {
                 <Button 
                   variant="outline" 
                   size="lg" 
-                  className="border-green-700 text-green-700 hover:bg-green-700 hover:text-white text-lg px-8 py-4"
+                  className="border-slate-800 text-slate-800 hover:bg-slate-800 hover:text-white text-lg px-8 py-4"
                   onClick={() => scrollToSection('#services')}
                 >
-                  Our Services
+                  Elite Services
                 </Button>
               </motion.div>
 
               {/* Emergency Info */}
               <motion.div 
-                className="bg-gray-50 p-6 rounded-lg border-l-4 border-orange-500"
+                className="bg-gray-50 p-6 rounded-lg border-l-4 border-slate-800"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.9 }}
               >
                 <div className="flex items-center gap-3">
-                  <span className="font-semibold text-gray-700">24/7 Emergency:</span>
+                  <span className="font-semibold text-gray-700">Premium Consultation:</span>
                   <a 
                     href="tel:816-555-0123" 
-                    className="text-2xl font-bold text-orange-500 hover:text-orange-600 transition-colors"
+                    className="text-2xl font-bold text-slate-800 hover:text-slate-900 transition-colors"
                   >
                     (816) 555-0123
                   </a>
@@ -134,7 +134,7 @@ const Hero = () => {
                   className="w-full h-[500px] object-cover"
                   priority
                 />
-                <div className="absolute inset-0 bg-gradient-to-br from-green-500/10 to-blue-500/10"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-slate-500/10 to-gray-500/10"></div>
                 
                 {/* Floating Elements */}
                 <motion.div 
@@ -142,7 +142,7 @@ const Hero = () => {
                   animate={{ y: [-10, 10, -10] }}
                   transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
                 >
-                  <Heart className="w-6 h-6 text-green-600" />
+                  <Heart className="w-6 h-6 text-slate-600" />
                 </motion.div>
                 
                 <motion.div 
@@ -150,7 +150,7 @@ const Hero = () => {
                   animate={{ y: [10, -10, 10] }}
                   transition={{ duration: 6, repeat: Infinity, ease: "easeInOut", delay: 3 }}
                 >
-                  <PawPrint className="w-6 h-6 text-green-600" />
+                  <PawPrint className="w-6 h-6 text-slate-600" />
                 </motion.div>
               </div>
             </motion.div>
