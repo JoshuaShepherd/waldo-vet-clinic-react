@@ -5,6 +5,7 @@ import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Team = () => {
   const ref = useRef(null)
@@ -15,9 +16,10 @@ const Team = () => {
       name: "Dr. Marcus Sterling",
       title: "Chief Veterinarian & Practice Director",
       credentials: "DVM, MS - 18 years experience",
-      bio: "Dr. Sterling is a distinguished veterinary professional specializing in advanced internal medicine and emergency care. He established Hot Male Vets with a vision of delivering uncompromising excellence in veterinary healthcare.",
+      bio: "Dr. Sterling is a distinguished veterinary professional specializing in advanced internal medicine and emergency care. He established Waldo Area Veterinary Clinic with a vision of delivering uncompromising excellence in veterinary healthcare.",
       specialties: ["Advanced Internal Medicine", "Emergency Care", "Surgical Excellence"],
-      image: "/media/veterinarians/veterinarian-man-01.jpg"
+      image: "/media/veterinarians/hot-vet-1.png",
+      slug: "marcus-sterling"
     },
     {
       name: "Dr. Alexander Blackwood",
@@ -25,7 +27,8 @@ const Team = () => {
       credentials: "DVM, DACVS - 12 years experience",
       bio: "Dr. Blackwood is a board-certified veterinary surgeon specializing in advanced orthopedic procedures and pain management. His expertise in complex surgical cases has earned him recognition in the veterinary community.",
       specialties: ["Advanced Orthopedic Surgery", "Pain Management", "Surgical Rehabilitation"],
-      image: "/media/veterinarians/veterinarian-man-02.jpg"
+      image: "/media/veterinarians/hot-vet-2.png",
+      slug: "alexander-blackwood"
     },
     {
       name: "Dr. Sebastian Cross",
@@ -33,7 +36,8 @@ const Team = () => {
       credentials: "DVM, ABVP - 10 years experience",
       bio: "Dr. Cross is a board-certified specialist in exotic pet medicine, providing expert care for birds, reptiles, and small mammals. His advanced knowledge and gentle approach make him a trusted expert in exotic pet healthcare.",
       specialties: ["Exotic Medicine Excellence", "Avian Specialization", "Reptile Medicine"],
-      image: "/media/veterinarians/veterinarian-man-03.jpg"
+      image: "/media/veterinarians/hot-vet-3.png",
+      slug: "sebastian-cross"
     }
   ]
 
@@ -85,38 +89,41 @@ const Team = () => {
         >
           {teamMembers.map((member, index) => (
             <motion.div key={index} variants={itemVariants}>
-              <Card className="overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border-0 shadow-md group">
-                <div className="relative h-80 overflow-hidden">
-                  <Image
-                    src={member.image}
-                    alt={member.name}
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-br from-slate-600/80 to-gray-600/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                    <div className="text-center text-white">
-                      <h4 className="text-xl font-semibold mb-2">{member.name}</h4>
-                      <p className="text-sm opacity-90">{member.title}</p>
-                      <p className="text-xs opacity-75">{member.credentials}</p>
+              <Link href={`/team/${member.slug}`}>
+                <Card className="overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border-0 shadow-md group cursor-pointer">
+                  <div className="relative h-80 overflow-hidden">
+                    <Image
+                      src={member.image}
+                      alt={member.name}
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-br from-slate-600/80 to-gray-600/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                      <div className="text-center text-white">
+                        <h4 className="text-xl font-semibold mb-2">{member.name}</h4>
+                        <p className="text-sm opacity-90">{member.title}</p>
+                        <p className="text-xs opacity-75">{member.credentials}</p>
+                        <p className="text-sm mt-2 opacity-90">Learn More →</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <CardContent className="p-8">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">{member.name}</h3>
-                  <p className="text-slate-700 font-medium mb-3">{member.title}</p>
-                  <p className="text-gray-600 leading-relaxed mb-6">{member.bio}</p>
-                  <div className="flex flex-wrap gap-2">
-                    {member.specialties.map((specialty, specialtyIndex) => (
-                      <span 
-                        key={specialtyIndex}
-                        className="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm font-medium"
-                      >
-                        {specialty}
-                      </span>
-                    ))}
-                  </div>
-                </CardContent>
-              </Card>
+                  <CardContent className="p-8">
+                    <h3 className="text-xl font-semibold text-gray-900 mb-2">{member.name}</h3>
+                    <p className="text-slate-700 font-medium mb-3">{member.title}</p>
+                    <p className="text-gray-600 leading-relaxed mb-6">{member.bio}</p>
+                    <div className="flex flex-wrap gap-2">
+                      {member.specialties.map((specialty, specialtyIndex) => (
+                        <span 
+                          key={specialtyIndex}
+                          className="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm font-medium"
+                        >
+                          {specialty}
+                        </span>
+                      ))}
+                    </div>
+                  </CardContent>
+                </Card>
+              </Link>
             </motion.div>
           ))}
         </motion.div>
