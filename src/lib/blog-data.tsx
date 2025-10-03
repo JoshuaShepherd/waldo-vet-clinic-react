@@ -91,7 +91,7 @@ export const blogPosts: BlogPost[] = [
     tags: ["Diabetes", "Senior Cats", "Internal Medicine", "Treatment Protocol"],
     category: "Internal Medicine",
     featured: true,
-    image: "/media/pets/cat-senior.jpg"
+    image: "/media/pets/cat-sitting-cute.jpg"
   },
   {
     slug: "emergency-care-critical-signs-every-pet-owner-should-know",
@@ -174,7 +174,7 @@ export const blogPosts: BlogPost[] = [
     tags: ["Emergency Care", "Pet Safety", "Critical Signs", "First Aid"],
     category: "Emergency Medicine",
     featured: false,
-    image: "/media/pets/emergency-care.jpg"
+    image: "/media/clinic-interiors/vet-examination-room.jpg"
   },
   {
     slug: "future-veterinary-medicine-technology-transforming-pet-care",
@@ -242,7 +242,7 @@ export const blogPosts: BlogPost[] = [
     tags: ["Technology", "Innovation", "Future of Medicine", "AI Diagnostics"],
     category: "Practice Innovation",
     featured: false,
-    image: "/media/medical-equipment/technology-vet.jpg"
+    image: "/media/medical-equipment/x-ray-machine-vet.jpg"
   },
   {
     slug: "acl-tears-dogs-understanding-injury-treatment-options",
@@ -330,7 +330,7 @@ export const blogPosts: BlogPost[] = [
     tags: ["ACL Tear", "Orthopedic Surgery", "Dog Health", "Surgical Treatment"],
     category: "Orthopedic Surgery",
     featured: false,
-    image: "/media/pets/dog-surgery.jpg"
+    image: "/media/clinic-interiors/surgical-suite-modern.jpg"
   },
   {
     slug: "recognizing-pain-pet-signs-never-ignore",
@@ -426,7 +426,7 @@ export const blogPosts: BlogPost[] = [
     tags: ["Pain Management", "Pet Health", "Behavioral Signs", "Quality of Life"],
     category: "Pain Management",
     featured: false,
-    image: "/media/pets/pet-pain-assessment.jpg"
+    image: "/media/pets/puppy-exam-table.jpg"
   },
   {
     slug: "hip-dysplasia-diagnosis-recovery-complete-guide",
@@ -546,7 +546,7 @@ export const blogPosts: BlogPost[] = [
     tags: ["Hip Dysplasia", "Orthopedic Surgery", "Dog Health", "Recovery"],
     category: "Orthopedic Surgery",
     featured: false,
-    image: "/media/pets/dog-hip-dysplasia.jpg"
+    image: "/media/pets/golden-retriever-happy.jpg"
   },
   {
     slug: "complete-care-guide-african-grey-parrots-health-nutrition-behavior",
@@ -661,7 +661,7 @@ export const blogPosts: BlogPost[] = [
     tags: ["African Grey Parrot", "Avian Medicine", "Exotic Pets", "Bird Care"],
     category: "Avian Medicine",
     featured: false,
-    image: "/media/pets/african-grey-parrot.jpg"
+    image: "/media/pets/rabbit-exotic-pet.jpg"
   },
   {
     slug: "bearded-dragon-care-hatchling-adult-comprehensive-guide",
@@ -791,7 +791,7 @@ export const blogPosts: BlogPost[] = [
     tags: ["Bearded Dragon", "Reptile Care", "Exotic Pets", "Habitat Setup"],
     category: "Reptile Medicine",
     featured: false,
-    image: "/media/pets/bearded-dragon.jpg"
+    image: "/media/pets/rabbit-exotic-pet.jpg"
   },
   {
     slug: "exotic-pet-emergency-care-what-to-do-before-reach-vet",
@@ -929,6 +929,6 @@ export const blogPosts: BlogPost[] = [
     tags: ["Emergency Care", "Exotic Pets", "First Aid", "Pet Safety"],
     category: "Emergency Medicine",
     featured: false,
-    image: "/media/pets/exotic-pet-emergency.jpg"
+    image: "/media/clinic-interiors/modern-clinic-interior-01.jpg"
   }
 ]
