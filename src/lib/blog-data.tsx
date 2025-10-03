@@ -1085,11 +1085,11 @@ export const blogPosts: BlogPost[] = [
       bio: "Dr. Alexander Blackwood is a board-certified surgeon specializing in orthopedic surgery and pain management. With 12 years of experience, he brings exceptional expertise to complex surgical cases.",
       credentials: ["DVM", "DACVS", "12 years experience", "Board Certified Surgeon"]
     },
-    publishDate: "2024-01-29",
+    publishDate: "2025-10-03",
     readTime: 12,
     tags: ["Paw Injuries", "Emergency Care", "Large Dogs", "Kansas City", "First Aid"],
     category: "Emergency Medicine",
     featured: true,
-    image: "/media/pets/dog-headshot.png"
+    image: "/media/pets/dog-headshot.avif"
   }
 ]
