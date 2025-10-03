@@ -24,11 +24,22 @@ export const metadata: Metadata = {
     description: 'Premier veterinary care in Kansas City\'s Waldo neighborhood. Expert veterinarians providing comprehensive medical, surgical, and wellness services.',
     type: 'website',
     locale: 'en_US',
+    url: 'https://waldo-vet-clinic-react-o8g1pbav2-joshuashepherds-projects.vercel.app',
+    siteName: 'Waldo Area Veterinary Clinic',
+    images: [
+      {
+        url: '/media/hero-veterinarian.png',
+        width: 1200,
+        height: 630,
+        alt: 'Expert veterinarians providing compassionate care for your beloved pets',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Waldo Area Veterinary Clinic | Compassionate Care for Your Beloved Pets',
     description: 'Premier veterinary care in Kansas City\'s Waldo neighborhood. Expert veterinarians providing comprehensive medical, surgical, and wellness services.',
+    images: ['/media/hero-veterinarian.png'],
   },
   robots: {
     index: true,
