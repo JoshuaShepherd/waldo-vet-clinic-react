@@ -25,7 +25,6 @@ const Contact = () => {
   const [isSubmitted, setIsSubmitted] = useState(false)
 
   const ref = useRef(null)
-  const isInView = useInView(ref, { once: true, margin: "-100px" })
 
   const handleInputChange = (field: string, value: string) => {
     setFormData(prev => ({ ...prev, [field]: value }))
@@ -93,7 +92,7 @@ const Contact = () => {
               Contact Us
             </h2>
             <p className="text-xl text-gray-600 mb-12 leading-relaxed">
-              Ready to schedule an appointment or have questions about your pet's health? We're here to help.
+              Ready to schedule an appointment or have questions about your pet&apos;s health? We&apos;re here to help.
             </p>
 
             <div className="space-y-8">
@@ -163,7 +162,7 @@ const Contact = () => {
                   >
                     <CheckCircle className="w-16 h-16 text-green-600 mx-auto mb-4" />
                     <h3 className="text-xl font-semibold text-gray-900 mb-2">Appointment Request Submitted!</h3>
-                    <p className="text-gray-600">We'll contact you within 24 hours to confirm your appointment.</p>
+                    <p className="text-gray-600">We&apos;ll contact you within 24 hours to confirm your appointment.</p>
                   </motion.div>
                 ) : (
                   <form onSubmit={handleSubmit} className="space-y-6">
@@ -204,7 +203,7 @@ const Contact = () => {
                         />
                       </div>
                       <div>
-                        <Label htmlFor="petName">Pet's Name</Label>
+                        <Label htmlFor="petName">Pet&apos;s Name</Label>
                         <Input
                           id="petName"
                           value={formData.petName}

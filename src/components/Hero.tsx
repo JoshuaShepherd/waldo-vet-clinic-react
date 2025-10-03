@@ -57,7 +57,7 @@ const Hero = () => {
                 transition={{ duration: 0.8, delay: 0.3 }}
               >
                 <span className="block">Expert Veterinary Care</span>
-                <span className="block">in Kansas City's</span>
+                <span className="block">in Kansas City&apos;s</span>
                 <span className="block text-green-700">Waldo Neighborhood</span>
               </motion.h1>
 

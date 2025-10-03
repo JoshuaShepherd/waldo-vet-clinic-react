@@ -83,8 +83,8 @@ const About = () => {
             
             <div className="space-y-6">
               <p className="text-xl text-gray-700 leading-relaxed">
-                For over 15 years, Waldo Area Veterinary Clinic has been Kansas City's trusted partner in pet health and wellness. 
-                Located in the heart of the Waldo neighborhood, we've built lasting relationships with families throughout the metro area.
+                For over 15 years, Waldo Area Veterinary Clinic has been Kansas City&apos;s trusted partner in pet health and wellness. 
+                Located in the heart of the Waldo neighborhood, we&apos;ve built lasting relationships with families throughout the metro area.
               </p>
               
               <p className="text-gray-600 leading-relaxed">
