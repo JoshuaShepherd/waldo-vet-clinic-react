@@ -22,15 +22,19 @@ const Navigation = () => {
     { href: '#services', label: 'Services' },
     { href: '#team', label: 'Our Team' },
     { href: '#about', label: 'About' },
+    { href: '/blog', label: 'Blog' },
     { href: '#resources', label: 'Resources' },
     { href: '#contact', label: 'Contact' },
   ]
 
   const scrollToSection = (href: string) => {
-    const element = document.querySelector(href)
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' })
+    if (href.startsWith('#')) {
+      const element = document.querySelector(href)
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' })
+      }
     }
+    // For external links like /blog, let the browser handle navigation
   }
 
   return (
@@ -60,7 +64,12 @@ const Navigation = () => {
               <a
                 key={item.href}
                 href={item.href}
-                onClick={(e) => { e.preventDefault(); scrollToSection(item.href) }}
+                onClick={(e) => { 
+                  if (item.href.startsWith('#')) {
+                    e.preventDefault(); 
+                    scrollToSection(item.href) 
+                  }
+                }}
                 className="text-gray-700 hover:text-slate-800 font-medium transition-colors relative group"
               >
                 {item.label}
@@ -101,7 +110,12 @@ const Navigation = () => {
                     <a
                       key={item.href}
                       href={item.href}
-                      onClick={(e) => { e.preventDefault(); scrollToSection(item.href) }}
+                      onClick={(e) => { 
+                        if (item.href.startsWith('#')) {
+                          e.preventDefault(); 
+                          scrollToSection(item.href) 
+                        }
+                      }}
                       className="text-gray-700 hover:text-slate-800 font-medium transition-colors py-2"
                     >
                       {item.label}
