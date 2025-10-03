@@ -66,7 +66,7 @@ export default function AlexanderBlackwoodProfile() {
           
           <div className="prose prose-lg max-w-none">
             <p className="text-gray-600 leading-relaxed mb-6">
-              Dr. Alexander Blackwood's path to veterinary surgery was forged through personal experience. As a teenager, he watched his beloved Golden Retriever, Max, struggle with hip dysplasia. The pain he witnessed in Max's eyes and the relief that came after successful surgery inspired him to dedicate his life to helping other animals overcome similar challenges.
+              Dr. Alexander Blackwood&apos;s path to veterinary surgery was forged through personal experience. As a teenager, he watched his beloved Golden Retriever, Max, struggle with hip dysplasia. The pain he witnessed in Max&apos;s eyes and the relief that came after successful surgery inspired him to dedicate his life to helping other animals overcome similar challenges.
             </p>
             
             <p className="text-gray-600 leading-relaxed mb-6">
@@ -103,15 +103,15 @@ export default function AlexanderBlackwoodProfile() {
             
             <h3 className="text-2xl font-semibold text-gray-900 mt-12 mb-6">Surgical Philosophy</h3>
             <blockquote className="border-l-4 border-green-500 pl-6 italic text-gray-700 text-lg">
-              "Every surgery is not just a medical procedure—it's a chance to restore quality of life and bring joy back to both the pet and their family. My goal is to make each procedure as safe, comfortable, and successful as possible."
+              &ldquo;Every surgery is not just a medical procedure&mdash;it&apos;s a chance to restore quality of life and bring joy back to both the pet and their family. My goal is to make each procedure as safe, comfortable, and successful as possible.&rdquo;
             </blockquote>
             
             <p className="text-gray-600 leading-relaxed mt-6">
-              Dr. Blackwood's expertise extends beyond the operating room. He's passionate about pain management and rehabilitation, working closely with our physical therapy team to ensure optimal recovery. His gentle approach and attention to detail have earned him the nickname "The Miracle Worker" among grateful pet owners.
+              Dr. Blackwood&apos;s expertise extends beyond the operating room. He&apos;s passionate about pain management and rehabilitation, working closely with our physical therapy team to ensure optimal recovery. His gentle approach and attention to detail have earned him the nickname &ldquo;The Miracle Worker&rdquo; among grateful pet owners.
             </p>
             
             <p className="text-gray-600 leading-relaxed mt-6">
-              When not in surgery, Dr. Blackwood enjoys hiking with his rescue dog, Atlas, and volunteering at the Kansas City Humane Society. He's also an accomplished woodworker, crafting custom furniture and surgical instrument cases in his home workshop.
+              When not in surgery, Dr. Blackwood enjoys hiking with his rescue dog, Atlas, and volunteering at the Kansas City Humane Society. He&apos;s also an accomplished woodworker, crafting custom furniture and surgical instrument cases in his home workshop.
             </p>
           </div>
         </div>

@@ -66,7 +66,7 @@ export default function MarcusSterlingProfile() {
           
           <div className="prose prose-lg max-w-none">
             <p className="text-gray-600 leading-relaxed mb-6">
-              Dr. Marcus Sterling's journey into veterinary medicine began with a childhood fascination for the bond between humans and animals. Growing up on a small farm in rural Missouri, he spent his formative years caring for livestock and companion animals, developing a deep understanding of animal behavior and health.
+              Dr. Marcus Sterling&apos;s journey into veterinary medicine began with a childhood fascination for the bond between humans and animals. Growing up on a small farm in rural Missouri, he spent his formative years caring for livestock and companion animals, developing a deep understanding of animal behavior and health.
             </p>
             
             <p className="text-gray-600 leading-relaxed mb-6">
@@ -103,11 +103,11 @@ export default function MarcusSterlingProfile() {
             
             <h3 className="text-2xl font-semibold text-gray-900 mt-12 mb-6">Personal Philosophy</h3>
             <blockquote className="border-l-4 border-blue-500 pl-6 italic text-gray-700 text-lg">
-              "Every animal deserves the highest quality of care, regardless of their background or circumstances. My mission is to ensure that every pet receives the same level of attention and expertise that I would want for my own beloved companions."
+              &ldquo;Every animal deserves the highest quality of care, regardless of their background or circumstances. My mission is to ensure that every pet receives the same level of attention and expertise that I would want for my own beloved companions.&rdquo;
             </blockquote>
             
             <p className="text-gray-600 leading-relaxed mt-6">
-              When not at the clinic, Dr. Sterling enjoys hiking with his two rescue dogs, Luna and Scout, and volunteering at local animal shelters. He's also an avid photographer, capturing the beauty of Missouri's wildlife and landscapes.
+              When not at the clinic, Dr. Sterling enjoys hiking with his two rescue dogs, Luna and Scout, and volunteering at local animal shelters. He&apos;s also an avid photographer, capturing the beauty of Missouri&apos;s wildlife and landscapes.
             </p>
           </div>
         </div>

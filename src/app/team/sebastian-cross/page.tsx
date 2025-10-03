@@ -66,7 +66,7 @@ export default function SebastianCrossProfile() {
           
           <div className="prose prose-lg max-w-none">
             <p className="text-gray-600 leading-relaxed mb-6">
-              Dr. Sebastian Cross's fascination with exotic animals began during childhood visits to the Kansas City Zoo, where he spent hours observing the intricate behaviors of parrots, reptiles, and small mammals. His early passion for these unique creatures led him to pursue a specialized path in veterinary medicine that few dare to take.
+              Dr. Sebastian Cross&apos;s fascination with exotic animals began during childhood visits to the Kansas City Zoo, where he spent hours observing the intricate behaviors of parrots, reptiles, and small mammals. His early passion for these unique creatures led him to pursue a specialized path in veterinary medicine that few dare to take.
             </p>
             
             <p className="text-gray-600 leading-relaxed mb-6">
@@ -103,11 +103,11 @@ export default function SebastianCrossProfile() {
             
             <h3 className="text-2xl font-semibold text-gray-900 mt-12 mb-6">Specialized Care Philosophy</h3>
             <blockquote className="border-l-4 border-purple-500 pl-6 italic text-gray-700 text-lg">
-              "Exotic animals are not just pets—they're ambassadors from wild places. My mission is to provide them with the specialized care they deserve while educating their families about the unique needs of these remarkable creatures."
+              &ldquo;Exotic animals are not just pets&mdash;they&apos;re ambassadors from wild places. My mission is to provide them with the specialized care they deserve while educating their families about the unique needs of these remarkable creatures.&rdquo;
             </blockquote>
             
             <p className="text-gray-600 leading-relaxed mt-6">
-              Dr. Cross's expertise spans across all exotic species, from the smallest sugar gliders to the largest tortoises. His clinic features specialized equipment including avian incubators, reptile heating systems, and advanced diagnostic tools designed specifically for exotic animals. He's particularly known for his innovative approach to avian surgery and his success rate with complex reptile cases.
+              Dr. Cross&apos;s expertise spans across all exotic species, from the smallest sugar gliders to the largest tortoises. His clinic features specialized equipment including avian incubators, reptile heating systems, and advanced diagnostic tools designed specifically for exotic animals. He&apos;s particularly known for his innovative approach to avian surgery and his success rate with complex reptile cases.
             </p>
             
             <p className="text-gray-600 leading-relaxed mt-6">
