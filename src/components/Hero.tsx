@@ -127,7 +127,7 @@ const Hero = () => {
             >
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <Image
-                  src="/media/hero-veterinarian.jpg"
+                  src="/media/hero-veterinarian.png"
                   alt="Elite Male Veterinarian"
                   width={600}
                   height={500}
