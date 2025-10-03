@@ -86,7 +86,7 @@ const Navigation = () => {
                 <Menu className="w-6 h-6" />
               </Button>
             </SheetTrigger>
-            <SheetContent side="right" className="w-80">
+            <SheetContent side="right" className="w-80 bg-white">
               <div className="flex flex-col gap-6 mt-8">
                 <div className="flex flex-col">
                   <span className="text-2xl font-bold text-green-700 flex items-center gap-2">

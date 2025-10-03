@@ -125,10 +125,10 @@ const Hero = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+                <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <Image
-                  src="/media/clinic-interiors/modern-vet-clinic-reception.jpg"
-                  alt="Modern veterinary clinic interior"
+                  src="/media/kittens/cute-kitten-01.jpg"
+                  alt="Cute kitten at veterinary clinic"
                   width={600}
                   height={500}
                   className="w-full h-[500px] object-cover"

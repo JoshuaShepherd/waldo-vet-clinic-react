@@ -3,6 +3,7 @@ import Hero from '@/components/Hero'
 import Services from '@/components/Services'
 import Team from '@/components/Team'
 import About from '@/components/About'
+import CutePetsGallery from '@/components/CutePetsGallery'
 import Resources from '@/components/Resources'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
@@ -15,6 +16,7 @@ export default function Home() {
       <Services />
       <Team />
       <About />
+      <CutePetsGallery />
       <Resources />
       <Contact />
       <Footer />

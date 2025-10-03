@@ -5,6 +5,7 @@ import { Heart, Stethoscope, Cross, Bandage, PawPrint, Thermometer } from 'lucid
 import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
+import Image from 'next/image'
 
 const Services = () => {
   const ref = useRef(null)
@@ -20,7 +21,8 @@ const Services = () => {
         "Vaccination programs", 
         "Parasite prevention",
         "Dental cleanings"
-      ]
+      ],
+      image: "/media/kittens/cute-kitten-02.jpg"
     },
     {
       icon: Stethoscope,
@@ -31,7 +33,8 @@ const Services = () => {
         "Digital radiography",
         "Ultrasound imaging",
         "Internal medicine"
-      ]
+      ],
+      image: "/media/kittens/cute-kitten-03.jpg"
     },
     {
       icon: Cross,
@@ -42,7 +45,8 @@ const Services = () => {
         "Soft tissue surgery",
         "Orthopedic procedures",
         "Emergency surgery"
-      ]
+      ],
+      image: "/media/kittens/cute-kitten-04.jpg"
     },
     {
       icon: Bandage,
@@ -127,11 +131,27 @@ const Services = () => {
         >
           {services.map((service, index) => (
             <motion.div key={index} variants={itemVariants}>
-              <Card className="h-full hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border-0 shadow-md group">
-                <CardHeader className="pb-4">
-                  <div className="w-16 h-16 bg-green-700 rounded-lg flex items-center justify-center mb-4 group-hover:bg-green-800 transition-colors">
-                    <service.icon className="w-8 h-8 text-white" />
+              <Card className="h-full hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border-0 shadow-md group overflow-hidden">
+                {service.image && (
+                  <div className="relative h-48 overflow-hidden">
+                    <Image
+                      src={service.image}
+                      alt={`Cute kitten for ${service.title}`}
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                    <div className="absolute top-4 right-4 w-12 h-12 bg-green-700 rounded-lg flex items-center justify-center group-hover:bg-green-800 transition-colors">
+                      <service.icon className="w-6 h-6 text-white" />
+                    </div>
                   </div>
+                )}
+                <CardHeader className="pb-4">
+                  {!service.image && (
+                    <div className="w-16 h-16 bg-green-700 rounded-lg flex items-center justify-center mb-4 group-hover:bg-green-800 transition-colors">
+                      <service.icon className="w-8 h-8 text-white" />
+                    </div>
+                  )}
                   <CardTitle className="text-xl font-semibold text-gray-900">
                     {service.title}
                   </CardTitle>
